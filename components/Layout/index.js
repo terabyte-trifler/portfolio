@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 import React, { useEffect, useState } from "react"
 
 
@@ -26,6 +27,17 @@ function Layout({ children }) {
       {children}
       {windowWidth <= 700 && <ResponsiveNavbar />}
       {/* <Footer /> */}
+=======
+import React from 'react'
+
+import styles from "./layout.module.css"
+
+
+function Layout({children}) {
+  return (
+    <div className={styles.layout}>
+      {children}
+>>>>>>> 868306c (first commit)
     </div>
   )
 }

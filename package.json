@@ -1,11 +1,16 @@
 {
+<<<<<<< HEAD
   "name": "terabyte-trifler",
+=======
+  "name": "baymax",
+>>>>>>> 868306c (first commit)
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "lint": "next lint",
     "setup": "node ./scripts/setup.js"
   },
@@ -25,5 +30,13 @@
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.24"
+=======
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.5",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+>>>>>>> 868306c (first commit)
   }
 }

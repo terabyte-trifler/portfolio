@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,10 +18,13 @@
     font-family: Cario;
     src: url("../public/fonts/Cairo-Light.ttf");
 }
+=======
+>>>>>>> 868306c (first commit)
 
 
 
 :root{
+<<<<<<< HEAD
     --dark1:#0c0c0c8c;
     --bg1: #202022;
     --bg2: #2d2e32;
@@ -62,6 +66,9 @@ ul{
 
 li{
     list-style-type: none;
+=======
+    --mian: red;
+>>>>>>> 868306c (first commit)
 }
 
 body{
@@ -70,6 +77,7 @@ body{
     position: relative;
     left: 0px;
     overflow-x: hidden;
+<<<<<<< HEAD
     font-family: var(--poppin);
     color: var(--white1);
     background: var(--bg1);
@@ -320,3 +328,6 @@ body{
         display: none;
     }
 }
+=======
+}
+>>>>>>> 868306c (first commit)
