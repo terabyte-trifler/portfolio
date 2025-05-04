@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Layout, Intro, Container, Projects, Contact, Footer, Quote, DomHead } from "../components";
 import { useEffect } from "react";
 import Aos from "aos"
@@ -22,6 +23,20 @@ export default function HomePage() {
                 <Footer />
             </Layout>
         </DataContextProvider>
+=======
+import { Layout } from "../components";
+
+
+
+export default function HomePage(){
+
+    return (
+        <div>
+            <Layout>
+                
+            </Layout>
+        </div>
+>>>>>>> 868306c (first commit)
     )
 }
 
