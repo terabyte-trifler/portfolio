@@ -54,7 +54,7 @@ function Refer() {
   return (
     <div className="w-screen flex flex-row items-center justify-center absolute bottom-[100px] mx-auto md:bottom-[10px]">
       <span className="py-2 text-[12px] text-white-200 ">
-        Powered with 💖 by <a target="_blank" href="https://github.com/Gurnoor/baaymax" className="text-green-200 underline hover:text-green-200">BaayMax</a>
+        <a target="_blank" href="https://github.com/Gurnoor/baaymax" className="text-green-200 underline hover:text-green-200"></a>
       </span>
     </div>
   )
