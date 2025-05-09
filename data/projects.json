@@ -1,18 +1,18 @@
 {
     "projects":[
         {
-            "title": "BaayMax",
-            "imageUrl": "https://github.com/Gurnoor/baaymax-cli/raw/master/readmeImg/cli.png?raw=true",
+            "title": "Course Selling App",
+            "imageUrl": "https://raw.githubusercontent.com/terabyte-trifler/portfolio/main/public/images/avatar/CourseSelling.png",
             "project_url": "https://github.com/Gurnoor/baaymax",
-            "description": "Generate developer portfolio site from your github profile.",
-            "tags": [ "react", "nodejs" ]
+            "description": "Platform to buy, access, and manage online courses",
+            "tags": [ "express", "nodejs","mongodb" ]
         },
         {
-            "title": "Babcock Ride",
-            "imageUrl": "https://raw.githubusercontent.com/Gurnoor/babcock-uber/main/readmeImg/babcock-profile.png",
+            "title": "Second Brain",
+            "imageUrl": "https://raw.githubusercontent.com/terabyte-trifler/portfolio/main/public/images/avatar/SecondBrain.png",
             "project_url": "https://github.com/Gurnoor/babcock-uber",
-            "description": "Get a ride quickly as possible using this app meant for the babcock university.",
-            "tags": [ "react", "postgresql", "nodejs" ]
+            "description": "Central hub to save and organize content from Twitter, YouTube, Google Docs, and more.",
+            "tags": [ "react", "typescript", "vite" ]
         },
         {
             "title": "E-Workflow",
