@@ -27,7 +27,6 @@ function Footer() {
 
               {socials["email"] !== "" && <SocialLink url={socials["email"]} children={<AiFillMail />} />}
 
-              {socials["facebook"] !== "" && <SocialLink url={socials["facebook"]} children={<FaFacebook />} />}
             </div>
           </div>
 
