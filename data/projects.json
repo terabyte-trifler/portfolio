@@ -15,39 +15,32 @@
             "tags": [ "react", "typescript", "vite" ]
         },
         {
-            "title": "E-Workflow",
-            "imageUrl": "https://raw.githubusercontent.com/Gurnoor/e-workflow-client/main/readmeImg/dashboard.png",
+            "title": "Dummy Paytm",
+            "imageUrl": "https://raw.githubusercontent.com/terabyte-trifler/portfolio/main/public/images/avatar/Paytm.png",
             "project_url": "https://github.com/Gurnoor/e-workflow-client",
-            "description": "Automate document submission within a school.",
-            "tags": [ "react", "postgresql", "nodejs" ]
+            "description": "PayTM like application that let’s users send money to each other given an initial dummy balance",
+            "tags": [ "react", "mongodb", "nodejs" ]
         },
         {
-            "title": "Quickr",
-            "imageUrl": "https://raw.githubusercontent.com/Gurnoor/quickr/main/readmeImg/quickr1.png",
+            "title": "Portfolio Website",
+            "imageUrl": "https://raw.githubusercontent.com/terabyte-trifler/portfolio/main/public/images/avatar/portfolio.png",
             "project_url": "https://github.com/Gurnoor/quickr",
-            "description": "Generate unique resume / CV.",
-            "tags": [ "react", "nodejs" ]
+            "description": "Personal portfolio showcasing my projects, skills, and journey in tech",
+            "tags": [ "react", "nodejs", "nextjs" ]
         },
         {
-            "title": "PayRill",
-            "imageUrl": "https://camo.githubusercontent.com/b9b0a0e9957c3fe08d47cbacbd36dd87242837f5ce88f00ed9db4cd3da8fd3d9/68747470733a2f2f643131327936393861646975327a2e636c6f756466726f6e742e6e65742f70686f746f732f70726f64756374696f6e2f736f6674776172655f70686f746f732f3030322f3232312f3931352f64617461732f67616c6c6572792e6a7067",
-            "project_url": "https://github.com/Gurnoor/payrill",
-            "description": "Ease Checkout Processes and Reduce queues in shopping stores application powered by Rapyd API.",
-            "tags": [ "react", "nodejs", "rapyd api" ]
-        },
-        {
-            "title": "RayPal",
-            "imageUrl": "https://camo.githubusercontent.com/db234641b926872b7e4cd67a3daae83c4e937295922e4176feacf83b0d1975b8/68747470733a2f2f6368616c6c656e6765706f73742d73332d6368616c6c656e6765706f73742e6e6574646e612d73736c2e636f6d2f70686f746f732f70726f64756374696f6e2f736f6674776172655f70686f746f732f3030322f3033362f3130312f64617461732f67616c6c6572792e6a7067",
+            "title": "Tymonial",
+            "imageUrl": "https://raw.githubusercontent.com/terabyte-trifler/portfolio/main/public/images/avatar/dashboard.png",
             "project_url": "https://github.com/Gurnoor/Rapyd-Payment-app",
-            "description": "Payment Infrastructure application powered by Rapyd API.",
+            "description": "An easy way to collect users feedback into yout web app.",
             "tags": [ "react", "nodejs", "rapyd api" ]
         },
          {
-            "title": "Tymonial",
-            "imageUrl": "https://raw.githubusercontent.com/Gurnoor/tymonial-app/main/github-img/formUI.png",
+            "title": "Solpass",
+            "imageUrl": "https://raw.githubusercontent.com/terabyte-trifler/portfolio/main/public/images/avatar/Solpass.png",
             "project_url": "https://github.com/Gurnoor/tymonial-app",
-            "description": "An easy way to collect users feedback into yout web app.",
-            "tags": [ "react", "nodejs", "linode server" ]
+            "description": "SolPass is a secure, private, and easy-to-use decentralized password manager.",
+            "tags": [ "react", "typescript", "solana", "rust" ]
         }
     ]
 }
