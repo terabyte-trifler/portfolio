@@ -24,7 +24,7 @@
         {
             "title": "Portfolio Website",
             "imageUrl": "https://raw.githubusercontent.com/terabyte-trifler/portfolio/main/public/images/avatar/portfolio.png",
-            "project_url": "https://github.com/Gurnoor/quickr",
+            "project_url": "https://gurnoorsingh.vercel.app/",
             "description": "Personal portfolio showcasing my projects, skills, and journey in tech",
             "tags": [ "react", "nodejs", "nextjs" ]
         },
