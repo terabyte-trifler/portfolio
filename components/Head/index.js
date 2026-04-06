@@ -9,7 +9,6 @@ export default function DomHead({ pageName = "Home Page" }) {
             {/* meta tags begins */}
             {/* Primary Meta Tags */}
             <meta name="title" content="Gurnoor- Personal Portfolio." />
-            <meta name="description" content="Generated using BaayMax." />
             {/* Open Graph / Facebook */}
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://github.com/Gurnoor/portfolio-v3/" />
