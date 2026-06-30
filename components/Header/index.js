@@ -72,7 +72,7 @@ export default function Header({ children }) {
                             </span>
                             <br />
                             <br />
-                            <h1 data-aos="fade-right" className={` text-[9vmin] md:text-[5vmin]`}>
+                            <h1 data-aos="fade-right" className={` text-[7vmin] leading-tight md:text-[4.2vmin]`}>
                                 {usersInfo.tag_line}
                             </h1>
                             <br />
@@ -82,20 +82,28 @@ export default function Header({ children }) {
                             <br />
                         </div>
                         <div className={`relative top-[50px] flex align-start items-start justify-start w-full`}>
-                            <div data-aos="zoom-in-left" className={`w-[50%] mr-[20px] flex flex-row items-center justify-start`}>
+                            <div data-aos="zoom-in-left" className={`w-[33%] mr-[20px] flex flex-row items-center justify-start`}>
                                 <h1 className={` text-[35px] pt-[10px] pr-[10px] pb-0 pl-0 `}>
-                                    {(new Date().getFullYear() - parseInt(usersInfo.tech_year))+1}
+                                    50+
                                 </h1>
-                                <span className={` w-[50px] text-white-300 text-[10px] `}>
-                                    Years of Experience
+                                <span className={` w-[60px] text-white-300 text-[10px] `}>
+                                    Contracts Deployed
                                 </span>
                             </div>
-                            <div data-aos="zoom-in-right" className={`w-[50%] mr-[20px] flex flex-row items-center justify-start`}>
+                            <div data-aos="zoom-in-up" className={`w-[33%] mr-[20px] flex flex-row items-center justify-start`}>
                                 <h1 className={` text-[35px] pt-[10px] pr-[10px] pb-0 pl-0 `}>
-                                    {reposcount}
+                                    20+
                                 </h1>
-                                <span className={` w-[50px] text-white-300 text-[10px] `}>
-                                    Projects / Contributions
+                                <span className={` w-[60px] text-white-300 text-[10px] `}>
+                                    Hackathons / Contests
+                                </span>
+                            </div>
+                            <div data-aos="zoom-in-right" className={`w-[33%] mr-[20px] flex flex-row items-center justify-start`}>
+                                <h1 className={` text-[35px] pt-[10px] pr-[10px] pb-0 pl-0 `}>
+                                    3
+                                </h1>
+                                <span className={` w-[60px] text-white-300 text-[10px] `}>
+                                    Years Building
                                 </span>
                             </div>
                         </div>
