@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react"
 
 
-import { NavBar, Footer, Header, DomHead } from ".."
+import { NavBar, Footer, Header, DomHead, PhylanxFeatured } from ".."
 import { ResponsiveNavbar } from "../Navbar"
 
 
@@ -23,6 +23,7 @@ function Layout({ children }) {
       <Header>
         <NavBar />
       </Header>
+      <PhylanxFeatured />
       {children}
       {windowWidth <= 700 && <ResponsiveNavbar />}
       {/* <Footer /> */}

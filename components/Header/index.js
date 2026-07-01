@@ -84,7 +84,7 @@ export default function Header({ children }) {
                         <div className={`relative top-[50px] flex align-start items-start justify-start w-full`}>
                             <div data-aos="zoom-in-left" className={`w-[33%] mr-[20px] flex flex-row items-center justify-start`}>
                                 <h1 className={` text-[35px] pt-[10px] pr-[10px] pb-0 pl-0 `}>
-                                    50+
+                                    20+
                                 </h1>
                                 <span className={` w-[60px] text-white-300 text-[10px] `}>
                                     Contracts Deployed
@@ -92,7 +92,7 @@ export default function Header({ children }) {
                             </div>
                             <div data-aos="zoom-in-up" className={`w-[33%] mr-[20px] flex flex-row items-center justify-start`}>
                                 <h1 className={` text-[35px] pt-[10px] pr-[10px] pb-0 pl-0 `}>
-                                    20+
+                                    10+
                                 </h1>
                                 <span className={` w-[60px] text-white-300 text-[10px] `}>
                                     Hackathons / Contests
