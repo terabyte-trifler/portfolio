@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react"
 
 import Link from "next/link"
-import { FaGithub, FaTwitter } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
+import { XIcon } from ".."
 import { FiMail } from "react-icons/fi"
 import usersInfo from "../../data/usersInfo.json"
 import { socials } from "../../data/socials.json"
@@ -35,8 +36,8 @@ function NavBar() {
                     <ul className={`flex flex-row align-center justify-between items-center`}>
                         {socials["twitter"] !== "" &&
                             <a href={socials["twitter"]} target="_blank" className={`w-[100px] text-[17px] flex flex-row align-center justify-center items-center decoration-none  hover:text-white `}>
-                                <FaTwitter className={`mr-[10px] `} />
-                                <small>Twitter</small>
+                                <XIcon className={`mr-[10px] `} />
+                                <small>X</small>
                             </a>}
 
                         {socials["github"] !== "" &&
