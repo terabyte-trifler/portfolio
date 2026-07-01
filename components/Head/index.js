@@ -15,14 +15,14 @@ export default function DomHead({ pageName = "Home Page" }) {
             <meta property="og:url" content="https://gurnoorsingh.vercel.app/" />
             <meta property="og:title" content="Gurnoor Singh — Smart Contract Engineer & Full-Stack Developer" />
             <meta property="og:description" content="Security-first smart contracts on Ethereum & Solana — tested, gas-optimized, audit-ready — with clean Web3 frontends." />
-            <meta property="og:image" content="https://gurnoorsingh.vercel.app/images/avatar/avatar.png" />
+            <meta property="og:image" content="https://avatars.githubusercontent.com/u/190388566?v=4" />
 
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content="https://gurnoorsingh.vercel.app/" />
             <meta property="twitter:title" content="Gurnoor Singh — Smart Contract Engineer & Full-Stack Developer" />
             <meta property="twitter:description" content="Security-first smart contracts on Ethereum & Solana — tested, gas-optimized, audit-ready — with clean Web3 frontends." />
-            <meta property="twitter:image" content="https://gurnoorsingh.vercel.app/images/avatar/avatar.png" />
+            <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/190388566?v=4" />
 
             {/* meta tags end */}
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
