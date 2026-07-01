@@ -28,6 +28,9 @@ function NavBar() {
                             <Link href="/projects">Projects</Link>
                         </li>
                         <li className={`mt-[5px] mr-[10px] mb-[0px] ml-[10px] transition-all hover:text-green-100 hover:font-extrabold cursor-pointer text-[12px]`}>
+                            <Link href="/#writing">Writing</Link>
+                        </li>
+                        <li className={`mt-[5px] mr-[10px] mb-[0px] ml-[10px] transition-all hover:text-green-100 hover:font-extrabold cursor-pointer text-[12px]`}>
                             <Link href="/#contact">Contact</Link>
                         </li>
                     </ul>
@@ -105,6 +108,12 @@ export function ResponsiveNavbar({ activePage, pageName = "" }) {
                         <ion-icon name="person-outline" class={`icon`}></ion-icon>
                     </Link>
                     <label className={`label`}>About</label>
+                </li>
+                <li className={active === "writing" ? `active` : `li`} data-name="writing" onClick={handleActive}>
+                    <Link href={pageName === "" ? "#writing" : "/#writing"}>
+                        <ion-icon name="book-outline" class={`icon`}></ion-icon>
+                    </Link>
+                    <label className={`label`}>Writing</label>
                 </li>
                 <li className={active === "contact" ? `active mr-5` : `li mr-5`} data-name="contact" onClick={handleActive}>
                     <Link href={pageName === "" ? "#contact" : "/#contact"}>

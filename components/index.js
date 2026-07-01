@@ -11,5 +11,6 @@ export { default as Quote } from "./Quotes"
 export { default as Contact } from "./Contact"
 export { default as PhylanxFeatured } from "./PhylanxFeatured"
 export { default as XIcon } from "./XIcon"
+export { default as Writing } from "./Writing"
 
 

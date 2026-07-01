@@ -1,4 +1,4 @@
-import { Layout, Intro, Container, Projects, Contact, Footer, Quote, DomHead } from "../components";
+import { Layout, Intro, Container, Projects, Contact, Footer, Quote, DomHead, Writing } from "../components";
 import { useEffect } from "react";
 import Aos from "aos"
 import { DataContextProvider } from "../context/DataContext";
@@ -17,6 +17,7 @@ export default function HomePage() {
                     <Intro />
                     <Projects />
                 </Container>
+                <Writing />
                 <Quote />
                 <Contact />
                 <Footer />
